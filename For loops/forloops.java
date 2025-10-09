@@ -1,17 +1,17 @@
 import java.util.Scanner;
 public  class forloops{
+
+     static void Table(int table, int range) {
+        for (int i = 1; i <= range; i++) {
+            System.out.println(i + "X" + table + "= " + (i * table));
+        }
+    }
+    
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
 
-        System.out.println("Enter the range to print the table: ");
-        int range=scanner.nextInt();
-        System.out.println("Enter which table want to print: ");
-        int table=scanner.nextInt();
-
-        for(int i=1;i<=range;i++){
-            System.out.println(i+"X"+table+"= "+(i*table));
-        }
-
+       Table(5,10);   //Here  first args means which table and second args range of table to print .//Example 5th table to start to end(10X5=50)
+        
          //Patterns :
         
         for(int i=1;i<=6;i++){
