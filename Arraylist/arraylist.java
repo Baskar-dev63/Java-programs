@@ -2,14 +2,15 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
+//ArrayList creation and Geting elements from user..
 public class arraylist {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ArrayList<Integer> list = new ArrayList<>();
-        System.out.println("Enter a length to the elements in Array:");
+        System.out.println("Enter a length of Array:");
         int length = scanner.nextInt();
-        System.out.println("Enter the numbers to set values of Array.");
+        System.out.println("Enter the numbers to set values in Array.");
 
         for (int i = 0; i < length; i++) {
             int num = scanner.nextInt();
@@ -25,6 +26,7 @@ public class arraylist {
 }
 
 
+//Problem divisible by 5 and 7 elements printiting..
 class divisible {
     public static void main(String[] args) {
 
@@ -57,6 +59,7 @@ class divisible {
     }
 }
 
+//Repeated values printing in arrayList..
 class repeatvalues {
 
     public static void main(String[] args) {
