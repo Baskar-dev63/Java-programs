@@ -12,9 +12,9 @@ public class 3DArray {
                 }
         };
 
-        //3D  Dimensional Array [
-        //                      start  [    [  [] , []   ],
-        //                             [  [] , []  ]    ];  End.
+        //3D  Dimensional Array 
+        //                      start  [    [ [] , [] ],
+        //                                [ [] , [] ]   ];  End.
 
         System.out.println("Layers Length: " + arr.length);
         System.out.println("First Array's length: " + arr[0].length);
